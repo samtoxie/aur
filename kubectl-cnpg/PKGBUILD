@@ -9,7 +9,7 @@ license=('Apache 2.0')
 groups=()
 depends=('kubectl')
 source=("$url/releases/download/v$pkgver/${pkgname}_${pkgver}_linux_${arch}.tar.gz")
-sha256sums=('5db1c680816a0534263bccccded965f059fa7c48aad1f381667881afef4dbad7')
+sha256sums=('90780fc5f650fe948798d9a6418d8d2168f9878d3432b7c1cf0ecb4cef730492')
 
 package() {
     cd "$srcdir"
